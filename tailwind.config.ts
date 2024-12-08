@@ -10,6 +10,7 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			primeryColor: "[#23A6F0]",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

@@ -10,7 +10,7 @@ import twitter from "@/public/twitter.svg"
 
 const Topbar = () => {
     return (
-        <div className='max-w-full mx-auto p-6 flex flex-row item-center justify-between bg-[#252b42] text-white font-bold text-[14px]'>
+        <div className='max-w-full mx-auto p-6 hidden md:flex flex-row item-center justify-between bg-[#252b42] text-white font-bold text-[14px]'>
             <div className='max-w-7xl  flex flex-row gap-6'>
                 <div className='flex flex-row gap-2'>
                     <Image src={call} alt="call icon" width={16} height={16} />
