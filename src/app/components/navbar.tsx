@@ -6,8 +6,8 @@ import { Button } from '@/components/ui/button'
 
 const Navbar = () => {
   return (
-    <nav className='max-w-auto mx-auto p-8 flex flex-row justify-between '>
-      <div className='flex flex-row items-center justify-between'>
+    <nav className='w-full p-8 flex flex-row items-center justify-between'>
+      <div className='flex w-full flex-row items-center max-auto justify-between gap-10'>
         <div className='max-w-7xl flex flex-row items-center justify-between gap-32 '>
           <div className=''>
             <h1 className='font-bold text-2xl'>Bandage</h1>
@@ -40,7 +40,7 @@ const Navbar = () => {
 
 
 
-        <div className='max-w-7xl text-[#23A6F0] font-bold text-[14px] hidden md:flex flex-row items-center justify-between gap-10 '>
+        <div className=' text-[#23A6F0] font-bold text-[14px] hidden md:flex flex-row items-center justify-between gap-10 '>
           <div className='flex gap-1'>
             <User />
             <p >Login / Register</p>
