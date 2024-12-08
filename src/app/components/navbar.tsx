@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 
 const Navbar = () => {
   return (
-    <nav className='w-full p-8 flex flex-row items-center justify-between'>
+    <nav className='w-full p-10 mb-5 flex flex-row items-center justify-between'>
       <div className='flex w-full flex-row items-center max-auto justify-between gap-10'>
         <div className='max-w-7xl flex flex-row items-center justify-between gap-32 '>
           <div className=''>

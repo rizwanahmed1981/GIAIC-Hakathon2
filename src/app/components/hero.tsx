@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 
 const Hero = () => {
     return (
-        <div>
+        <div className='mb-8'>
             <div className='w-full h-[716px] hidden md:flex  items-center justify-start  ' >
                 <div className='px-[140px] text-white w-[1044px] h-[651px] flex flex-col justify-center absolute z-10 gap-6'>
 
