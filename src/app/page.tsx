@@ -3,6 +3,9 @@ import Hero from './components/hero';
 import Section1 from './components/section1';
 // import ProductList from './components/productsSection';
 import ProductsSection from './components/productsSection';
+import Hero2 from './components/hero2';
+import Hero3 from './components/hero3';
+import Blog from './components/blog';
 
 const Page = () => {
   return (
@@ -10,6 +13,9 @@ const Page = () => {
       <Hero/>
       <Section1/>
       <ProductsSection/>
+      <Hero2/>
+      <Hero3/>
+      <Blog/>
       {/* <ProductList/> */}
     </div>
   )

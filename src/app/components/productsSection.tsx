@@ -12,7 +12,7 @@ const ProductsSection = () => {
             <p className='text-2xl font-bold '>BEST SELLER PRODUCT</p>
             <p className='text-[14px] font-normal text-[#737373] opacity-100'>Problems trying to resolve the conflict between </p>
         </div>
-        <div className="w-[80%] ml-40 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 items-center justify-center">
+        <div className="w-[80%] ml-10 md:ml-40 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 items-center justify-center">
             {productCard.map((product ,index)=>{
                 return (
                     <div key={index} className='bg-white flex flex-col items-center px-2 '>
