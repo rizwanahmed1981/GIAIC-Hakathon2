@@ -6,7 +6,7 @@
 //     discountedPrice: string
 //     coloursImage: string
 // }
-import Image from "next/image"
+
 import p1 from "@/app/images/p1.svg"
 import p2 from "@/app/images/p2.svg"
 import p3 from "@/app/images/p3.svg"

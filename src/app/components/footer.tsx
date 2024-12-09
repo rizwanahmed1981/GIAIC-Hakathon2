@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className=' md:pl-10 bg-gray-300 opacity-100 flex flex-col md:flex-row justify-between md:px-20 text-center gap-4 md:items-center md:justify-around'>
-            <p className='text-wrap font-semibold text-[#252b42] opacity-70'>Special Thanks To My Teachers and Repect For<br/> "Sir. Zia khan" <br/>and <br/>"Gov.Sindh Kamran Khan Tessori"..<br/>Made With Love By "Rizwan Ahmed" Student of GIAIC.  </p>
+            <p className='text-wrap font-semibold text-[#252b42] opacity-70'>Special Thanks To My Teachers and Repect For<br/>Sir. Zia khan <br/>and<br/>Gov.Sindh Kamran Khan Tessori..<br/>Made With Love By Rizwan Ahmed Student of GIAIC.</p>
         </div>
     </div>
   )

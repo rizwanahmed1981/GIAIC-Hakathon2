@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import { ChevronDown, Heart, Menu, Search, ShoppingCart, User } from 'lucide-react'
 import {Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
-import { Button } from '@/components/ui/button'
 
 const Navbar = () => {
   return (

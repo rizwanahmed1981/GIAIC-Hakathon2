@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import clock from "@/app/images/clock.svg";
 import graph from "@/app/images/graph.svg";
 import streetblock from "@/app/images/streetblock.png";
