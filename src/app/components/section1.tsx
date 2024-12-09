@@ -6,7 +6,7 @@ import kids from "@/app/images/kids.svg"
 
 const Section1 = () => {
   return (
-    <div className='h-[1850px] md:w-[1440px] w-[420px] justify-center md:h-[770px]  flex flex-col text-center md:mt-20 md:pt-20 m-6 gap-8 bg-[#fafafa]'>
+    <div className='h-[1850px] md:w-[1440px] w-[420px] justify-center md:h-[770px] ml-40 flex flex-col text-center md:mt-20 md:pt-20 m-6 gap-8 bg-[#fafafa]'>
         <div className='flex flex-col text-center text-wrap gap-4'>
             <p className='font-bold text-2xl'>EDITOR'S PICK</p>
             <p className='font-normal text-[14px] text-[#737373] opacity-100'>Problems trying to resolve the conflict between</p>

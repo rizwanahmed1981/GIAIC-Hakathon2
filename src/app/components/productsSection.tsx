@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const ProductsSection = () => {
   return (
-    <div className='flex flex-col gap-10 my-10'>
+    <div className='flex flex-col gap-10 ml-28'>
         <div className='flex flex-col gap-3 items-center'>
             <p className='font-normal text-lg text-[#737373] opacity-100'>Featured Products</p>
             <p className='text-2xl font-bold '>BEST SELLER PRODUCT</p>

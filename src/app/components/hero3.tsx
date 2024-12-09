@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 const Hero3 = () => {
     return (
-        <div className='w-[415px] h-[911px] md:w-full  md:h-[711px] bg-white m-10 flex flex-col-reverse md:flex md:flex-row items-center md:justify-evenly md:px-40 md:gap-8'>
+        <div className='w-[415px] h-[911px] pl-36 md:w-full  md:h-[711px] bg-white m-10 flex flex-col-reverse md:flex md:flex-row items-center md:justify-evenly md:px-40 md:gap-8'>
             <div className='md:mt-32  items-end'>
                 <Image src={couple} alt='Hero 3 imamge here' width={510} height={685} className='md:w-[704px] md:h[682px]' />
             </div>

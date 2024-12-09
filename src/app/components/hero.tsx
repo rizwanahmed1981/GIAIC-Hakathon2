@@ -20,7 +20,7 @@ const Hero = () => {
                 <Image src={hero1} alt='Hero Image' height={716} width={1540} className='relative' />
 
             </div>
-            <div className='w-[453px] h-[753px]  md:hidden flex  items-center justify-between mt-40' >
+            <div className='w-[453px] h-[753px] ml-28 md:hidden flex  items-center justify-between mt-40' >
                 <div className=' text-white w-[450px] pr-12 h-[651px] flex flex-col justify-center items-center text-center absolute z-10 gap-4'>
 
                     <p className='font-bold text-lg'>SUMMER 2020</p>

@@ -14,7 +14,7 @@ const Blog = () => {
       </div>
 
 
-      <div className="w-full pl-10 md:ml-40 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 items-center justify-center">
+      <div className="w-full pl-36 md:ml-40 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 items-center justify-center">
         {BlogCard.map((item, index) => {
           return (
             <div key={index} className='flex flex-col gap-2'>
