@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import call from "@/public/call.svg"
-import email from "@/public/email.svg"
-import insta from "@/public/insta.svg"
-import youtube from "@/public/youtube.svg"
-import fb from "@/public/fb.svg"
-import twitter from "@/public/twitter.svg"
+import call from "@/app/images/call.svg"
+import email from '@/app/images/email.svg'
+import insta from "@/app/images/insta.svg"
+import youtube from "@/app/images/youtube.svg"
+import fb from "@/app/images/fb.svg"
+import twitter from "@/app/images/twitter.svg" 
 
 
 const Topbar = () => {

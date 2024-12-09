@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import hero1 from "@/public/hero1.svg"
-import heroVer from "@/public/hero-vertical.svg"
+import hero1 from "@/app/images/hero1.svg"
+import heroVer from "@/app/images/hero-vertical.svg"
 import { Fullscreen } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 

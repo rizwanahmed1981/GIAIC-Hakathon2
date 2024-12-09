@@ -33,9 +33,9 @@ export default function RootLayout({
       >
         <Topbar/>
         <Navbar/>
-        <main className="bg-white mx-auto container">
+        
         {children}
-        </main>
+        
       </body>
     </html>
   );

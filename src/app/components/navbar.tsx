@@ -55,9 +55,9 @@ const Navbar = () => {
       <div className='md:hidden'>
         <Sheet >
           <SheetTrigger>
-            <Button variant={"outline"} size={"icon"} className='rounded-full ' >
+            {/* <Button variant={"outline"} size={"icon"} className='rounded-full ' > */}
               <Menu/>
-            </Button>
+            {/* </Button> */}
           </SheetTrigger>
 
           <SheetContent className='mt-6 max-w-full'>

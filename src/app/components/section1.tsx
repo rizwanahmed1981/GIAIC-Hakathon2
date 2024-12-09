@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import men from"@/public/men.svg"
-import women from"@/public/women.svg"
-import kids from"@/public/kids.svg"
+import men from "@/app/images/men.svg"
+import women from "@/app/images/women.svg"
+import kids from "@/app/images/kids.svg"
 
 const Section1 = () => {
   return (
