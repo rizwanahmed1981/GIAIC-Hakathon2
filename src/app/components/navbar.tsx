@@ -14,15 +14,15 @@ const Navbar = () => {
 
           <ul className='hidden md:flex flex-row items-center  text-[#737373] opacity-100 gap-4'>
             <li>
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className='flex flex-row gap-2 '>
-              <Link href="#">Shop
+              <Link href="/shop">Shop
               </Link>
               <ChevronDown />
             </li>
             <li>
-              <Link href="#">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li>
               <Link href="#">Blog</Link>
