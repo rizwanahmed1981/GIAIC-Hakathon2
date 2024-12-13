@@ -9,7 +9,7 @@ import uEmail from "@/app/images/uEmail.png"
 const Footer = () => {
   return (
     <div>
-        <div className='md:h-[142px] bg-gray-300 opacity-100 flex flex-col md:flex-row justify-between pl-20 md:px-20 items-start gap-4 md:items-center'>
+        <div className='md:h-[142px] bg-white flex flex-col md:flex-row justify-between pl-20 md:mx-32  items-start gap-4 md:items-center'>
             <h1 className='text-[24px] font-bold text-[#252B42]'>Bendage</h1>
             <div className='flex flex-row h-[24px] gap-4'>
                 
