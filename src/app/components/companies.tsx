@@ -13,7 +13,7 @@ const Companies = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 items-center gap-10 my-16 md:gap-6 md:justify-between'>
             {brand.map((item, index)=>{
                 return(
-                    <div>
+                    <div key={index}>
                         <Image src={item.image} alt='brand image ' width={152} height={75}/>
                     </div>
 

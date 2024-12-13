@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+
 import "../globals.css";
-import { Html } from "next/document"
+
 
 import Footer from "../components/footer"
 import Nav2 from "../components/nav2";

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { ChevronDown, ChevronsLeftRightIcon, Heart, Menu, Search, ShoppingCart, User } from 'lucide-react'
+import {  Menu, Search, ShoppingCart, User } from 'lucide-react'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { Button } from '@/components/ui/button'
 
