@@ -19,12 +19,12 @@ const Nav2 = () => {
                             <Link href="/">Home</Link>
                         </li>
                         <li className='flex flex-row gap-2 '>
-                            <Link href="/shop">Product
+                            <Link href="/">Product
                             </Link>
 
                         </li>
                         <li>
-                            <Link href="/about">Pricing</Link>
+                            <Link href="/pricing">Pricing</Link>
                         </li>
 
                         <li>

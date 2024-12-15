@@ -17,7 +17,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className='flex flex-row gap-2 '>
-              <Link href="/shop">Shop
+              <Link href="/pricing">Shop
               </Link>
               <ChevronDown />
             </li>
