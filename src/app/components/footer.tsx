@@ -9,7 +9,7 @@ import uEmail from "@/app/images/uEmail.png"
 const Footer = () => {
   return (
     <div>
-        <div className='md:h-[142px] bg-white flex flex-col md:flex-row justify-between pl-20 md:mx-32  items-start gap-4 md:items-center'>
+        <div className='md:h-[142px] bg-white flex flex-col md:flex-row justify-between pl-20 md:px-10 md:mx-32  items-start gap-4 md:items-center'>
             <h1 className='text-[24px] font-bold text-[#252B42]'>Bendage</h1>
             <div className='flex flex-row h-[24px] gap-4'>
                 
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='flex flex-col md:flex-row justify-evenly w-full gap-6 md:items-center mt-10 mx-20' >
+        <div className='flex flex-col md:flex-row justify-evenly w-full gap-6 md:items-center md:px-10 mt-10 mx-20' >
             <div className='flex flex-col gap-4 text-start md:h-[272px] '>
                 <p className='font-bold text-[16px] text-[#252b42]'>Company Info</p>
                 <p className='font-bold text-[14px] text-[#737373] opacity-100'>About Us</p>
