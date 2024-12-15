@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { ChevronDown, Heart, Menu, Search, ShoppingCart, User } from 'lucide-react'
-import {Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className='flex flex-row gap-2 '>
-              <Link href="/pricing">Shop
+              <Link href="/products">Products
               </Link>
               <ChevronDown />
             </li>
@@ -25,10 +25,10 @@ const Navbar = () => {
               <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="#">Blog</Link>
+              <Link href="/team">Team</Link>
             </li>
             <li>
-              <Link href="#">Contact</Link>
+              <Link href="contact">Contact</Link>
             </li>
             <li>
               <Link href="#">Pages</Link>
@@ -55,32 +55,32 @@ const Navbar = () => {
         <Sheet >
           <SheetTrigger>
             {/* <Button variant={"outline"} size={"icon"} className='rounded-full ' > */}
-              <Menu/>
+            <Menu />
             {/* </Button> */}
           </SheetTrigger>
 
           <SheetContent className='mt-6 max-w-full'>
             <SheetHeader className='max-w-7xl flex flex-row  items-center justify-evenly'>
               <SheetTitle className='font-semibold '>
-               Bandage
+                Bandage
               </SheetTitle>
               <div className='flex flex-row gap-4'>
 
-            <Search/>
-            <ShoppingCart/>
+                <Search />
+                <ShoppingCart />
               </div>
             </SheetHeader>
             <div className='flex flex-col gap-6 mt-6 justify-center items-center text-[30px] font-normal text-[#737373] opacity-100' >
-              <Link  href="#">Home</Link>
-              <Link  href="#">Product</Link>
-              <Link  href="#">Pricing</Link>
-              <Link  href="#">Contact</Link>
+              <Link href="#">Home</Link>
+              <Link href="#">Product</Link>
+              <Link href="#">Pricing</Link>
+              <Link href="#">Contact</Link>
             </div>
           </SheetContent>
 
         </Sheet>
       </div>
-      
+
     </nav>
   )
 }

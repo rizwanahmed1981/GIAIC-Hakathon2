@@ -10,7 +10,7 @@ import p7 from "@/app/images/p7.svg"
 import p8 from "@/app/images/p8.svg"
 import colour from "@/app/images/colour.svg"
 
-const productCard = [
+const productCard2 = [
     {
         name: "Graphic Design",
         details: "English Department",
@@ -51,7 +51,7 @@ const productCard = [
         details: "English Department",
         orignalPrice: "$16.48",
         discountedPrice: "$6.48",
-        image: [p6, colour]
+        image: [p4, colour]
     },
     {
         name: "Graphic Design",
@@ -65,8 +65,37 @@ const productCard = [
         details: "English Department",
         orignalPrice: "$16.48",
         discountedPrice: "$6.48",
+        image: [p6, colour]
+    },
+    {
+        name: "Graphic Design",
+        details: "English Department",
+        orignalPrice: "$16.48",
+        discountedPrice: "$6.48",
         image: [p8, colour]
-    },]
+    },
+    {
+        name: "Graphic Design",
+        details: "English Department",
+        orignalPrice: "$16.48",
+        discountedPrice: "$6.48",
+        image: [p6, colour]
+    },
+    {
+        name: "Graphic Design",
+        details: "English Department",
+        orignalPrice: "$16.48",
+        discountedPrice: "$6.48",
+        image: [p1,colour]
+    },
+    {
+        name: "Graphic Design",
+        details: "English Department",
+        orignalPrice: "$16.48",
+        discountedPrice: "$6.48",
+        image: [p3, colour]
+    },
+]
 
 
-export default productCard
+export default productCard2

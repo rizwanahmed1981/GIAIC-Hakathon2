@@ -6,7 +6,7 @@ const Companies = () => {
   return (
     <div className='md:h-[479px] md:w-full flex items-center justify-evenly gap-8 flex-col'>
         <div className='flex flex-col gap-6 text-centre item-centre'>
-            <p className='text-[40px] font-bold text-[#252b42] break-words'>Big Companies Are Here</p>
+            <p className='text-[40px] font-bold text-[#252b42] text-center break-words'>Big Companies Are Here</p>
             <p className='font-normal text-[14px] text-[#737373] break-words text-center'>Problems trying to resolve the conflict between<br/>
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>

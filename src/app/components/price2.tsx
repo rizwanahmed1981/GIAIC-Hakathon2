@@ -58,11 +58,11 @@ const Price2 = () => {
                 </div>
                 <div className='font-bold border-solid border-2 py-8 bg-[#252b42] border-[#23A6F0] flex flex-col items-center justify-between w-[320px] h-[704px] gap-6 text-center md:mt-2 my-10'>
                 
-                   <p className='text-[24px]  text-white'>FREE</p>
+                   <p className='text-[24px]  text-white'>STANDARD</p>
                     <p className='text-[16px]  text-white'>Organize across all <br />apps by hand</p>
                    
                     <div className='text-[#23A6F0] flex flex-row items-center gap-4 '>
-                        <p className='text-[40px] '>0</p>
+                        <p className='text-[40px] '>9.99</p>
                         <div className='flex flex-col gap-1' >
                             <DollarSign />
                             <p className='text-[14px]'>Per Month</p>
@@ -82,7 +82,7 @@ const Price2 = () => {
                             <p className='text-[14px] '>Unlimited product updates</p>
                         </div>
                         <div className='flex flex-row gap-4'>
-                            <Check className='bg-[#bdbdbd] text-white rounded-full w-[32px] h-[32px] ' />
+                            <Check className='bg-[#2DC071] text-white rounded-full w-[32px] h-[32px] ' />
                             <p className='text-[14px] '>1GB Cloud Storage </p>
                         </div>
                         <div className='flex flex-row gap-2 '>
@@ -94,11 +94,11 @@ const Price2 = () => {
 
                 </div>
                 <div className='font-bold border-solid border-2 py-8 bg-white  border-[#23A6F0] flex flex-col items-center justify-between w-[320px] h-[704px] gap-6 text-center my-10'>
-                    <p className='text-[24px]  text-[#252b42]'>FREE</p>
+                    <p className='text-[24px]  text-[#252b42]'>PREMIUM</p>
                     <p className='text-[16px]  text-[#737373]'>Organize across all <br />
                         apps by hand</p>
                     <div className='text-[#23A6F0] flex flex-row items-center gap-4 '>
-                        <p className='text-[40px] '>0</p>
+                        <p className='text-[40px] '>19.99</p>
                         <div className='flex flex-col gap-1' >
                             <DollarSign />
                             <p className='text-[14px]'>Per Month</p>
@@ -118,11 +118,11 @@ const Price2 = () => {
                             <p className='text-[14px] text-[#252b42]'>Unlimited product updates</p>
                         </div>
                         <div className='flex flex-row gap-4'>
-                            <Check className='bg-[#bdbdbd] text-white rounded-full w-[32px] h-[32px] ' />
+                            <Check className='bg-[#2DC071] text-white rounded-full w-[32px] h-[32px] ' />
                             <p className='text-[14px] text-[#252b42]'>1GB Cloud Storage </p>
                         </div>
                         <div className='flex flex-row gap-4'>
-                            <Check className='bg-[#bdbdbd] text-white rounded-full w-[32px] h-[32px] ' />
+                            <Check className='bg-[#2DC071] text-white rounded-full w-[32px] h-[32px] ' />
                             <p className='text-[14px] text-[#252b42]'>Email and Community Support</p>
                         </div>
                     </div>

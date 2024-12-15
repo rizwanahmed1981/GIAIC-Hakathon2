@@ -10,7 +10,7 @@ const Pricingfaq = () => {
         <p className='text-[20px] text-[#737373]'>Problems trying to resolve the conflict between <br/> 
         the two major realms of Classical physics</p>
         </div>
-        <div className="w-[80%]  md:ml-40 grid grid-cols-1 sm:grid-cols-2  gap-2 items-center justify-center">
+        <div className="md:w-full md:max-w-7xl ml-10 md:ml-20 grid grid-cols-1 sm:grid-cols-2 md:gap-6  gap-2 items-center justify-between ">
             {priceFaq.map((elem, index)=>{
                 return(
                     <div key={index} className='w-[500px] h-[160px] text-wrap'>
@@ -25,7 +25,7 @@ const Pricingfaq = () => {
             })}
             
         </div>
-        <p className='text-[20px] font-normal text-[#737373] ml-16 text-center'>Haven’t got your answer? Contact our support</p>
+        <p className='text-[32px] font-normal text-[#737373] ml-16 text-center max-w-7xl'>Haven’t got your answer? Contact our support</p>
     </div>
   )
 }

@@ -6,9 +6,9 @@ import { Button } from '@/components/ui/button'
 
 const Hero = () => {
     return (
-        <div className='mb-8'>
-            <div className=' md:w-full md:h-[716px]  hidden md:flex  items-center justify-start  ' >
-                <div className='px-[140px] text-white w-[1044px] h-[651px] flex flex-col justify-center absolute z-10 gap-6'>
+        <div className='mb-8 mx-auto'>
+            <div className=' md:w-full md:h-[716px] md:ml-52  hidden md:flex  items-center justify-start  ' >
+                <div className='px-[140px] text-white md:w-7xl h-[651px] flex flex-col justify-center absolute z-10 gap-6'>
 
                     <p className='md:font-bold md:text-lg'>SUMMER 2020</p>
                     <h1 className='md:font-bold md:text-6xl text-wrap'>NEW COLLECTION</h1>
