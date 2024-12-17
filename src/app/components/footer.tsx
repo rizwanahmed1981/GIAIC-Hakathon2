@@ -8,8 +8,8 @@ import uEmail from "@/app/images/uEmail.png"
 
 const Footer = () => {
   return (
-    <div>
-        <div className='md:h-[142px] bg-white flex flex-col md:flex-row justify-between pl-20 md:px-10 md:mx-32  items-start gap-4 md:items-center'>
+    <div className='flex flex-col gap-6'>
+        <div className='h-[100px] w-[630px] sm:w-full bg-[#fafafa] sm:bg-white sm:px-20 flex flex-col sm:flex-row sm:justify-between pl-32 items-start gap-4 sm:items-center'>
             <h1 className='text-[24px] font-bold text-[#252B42]'>Bendage</h1>
             <div className='flex flex-row h-[24px] gap-4'>
                 
@@ -19,47 +19,47 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='flex flex-col md:flex-row justify-evenly w-full gap-6 md:items-center md:px-10 mt-10 mx-20' >
-            <div className='flex flex-col gap-4 text-start md:h-[272px] '>
+        <div className='flex flex-col sm:flex-row justify-evenly sm:h-[272px] sm:w-full gap-6 sm:items-center  mt-10 pl-32' >
+            <div className='flex flex-col gap-2 text-start sm:h-[272px] '>
                 <p className='font-bold text-[16px] text-[#252b42]'>Company Info</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>About Us</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Carrier</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>We are hiring</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Blog</p>
+                <p className='font-bold text-[14px] text-[#737373] '>About Us</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Carrier</p>
+                <p className='font-bold text-[14px] text-[#737373] '>We are hiring</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Blog</p>
             </div>
-            <div className='flex flex-col gap-4 text-start md:h-[272px] '>
+            <div className='flex flex-col gap-2 text-start sm:h-[272px] '>
                 <p className='font-bold text-[16px] text-[#252b42]'>Legal</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>About Us</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Carrier</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>We are hiring</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Blog</p>
+                <p className='font-bold text-[14px] text-[#737373] '>About Us</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Carrier</p>
+                <p className='font-bold text-[14px] text-[#737373] '>We are hiring</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Blog</p>
             </div>
-            <div className='flex flex-col gap-4 text-start md:h-[272px] '>
+            <div className='flex flex-col gap-2 text-start sm:h-[272px] '>
                 <p className='font-bold text-[16px] text-[#252b42]'>features</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Business Marketing</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>User Analytics</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Live Chat</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Unlimited Support</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Business Marketing</p>
+                <p className='font-bold text-[14px] text-[#737373] '>User Analytics</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Live Chat</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Unlimited Support</p>
             </div>
-            <div className='flex flex-col gap-4 text-start md:h-[272px] '>
+            <div className='flex flex-col gap-2 text-start sm:h-[272px] '>
                 <p className='font-bold text-[16px] text-[#252b42]'>Resources</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>IOS & Android</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Watch a Demo</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Customer</p>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>API</p>
+                <p className='font-bold text-[14px] text-[#737373] '>IOS & Android</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Watch a Demo</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Customer</p>
+                <p className='font-bold text-[14px] text-[#737373] '>API</p>
             </div>
-            <div className='flex flex-col gap-4 text-start items-start md:h-[272px] '>
+            <div className='flex flex-col gap-4 text-start items-start sm:h-[272px] '>
                 <p className='font-bold text-[16px] text-[#252b42]'>Get in Touch</p>
                 <div className='flex flex-row-reverse '>
                     <Image src={uEmail} alt='' width={321} height={58} className='relative' />
                     <Image src={btn} alt='' height={58} width={117} className='absolute'/>
                 </div>
-                <p className='font-bold text-[14px] text-[#737373] opacity-100'>Thanks for your Interest</p>
+                <p className='font-bold text-[14px] text-[#737373] '>Thanks for your Interest</p>
             </div>
         </div>
 
-        <div className=' md:pl-10 bg-gray-300 opacity-100 flex flex-col md:flex-row justify-between md:px-20 text-center gap-4 md:items-center md:justify-around'>
-            <p className='text-wrap font-semibold text-[#252b42] opacity-70'>Special Thanks To My Teachers and Repect For<br/>Sir. Zia khan <br/>and<br/>Gov.Sindh Kamran Khan Tessori..<br/>Made With Love By Rizwan Ahmed Student of GIAIC.</p>
+        <div className='sm:h-[150px] bg-gray-300  flex flex-col sm:flex-row justify-between text-center gap-4 sm:items-center sm:justify-around'>
+            <p className='text-wrap font-semibold text-[#252b42] -70'>Special Thanks To My Teachers and Repect For<br/>Sir. Zia khan <br/>and<br/>Gov.Sindh Kamran Khan Tessori..<br/>Made With Love By Rizwan Ahmed Student of GIAIC.</p>
         </div>
     </div>
   )

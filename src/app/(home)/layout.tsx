@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <main className="flex flex-col w-full h-screen">
+        <main className="max-w-full h-screen">
           <Topbar/>
           <Navbar/>
 

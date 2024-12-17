@@ -6,33 +6,40 @@ import { Button } from '@/components/ui/button'
 
 const Hero = () => {
     return (
-        <div className='mb-8 mx-auto'>
-            <div className=' md:w-full md:h-[716px] md:ml-52  hidden md:flex  items-center justify-start  ' >
-                <div className='px-[140px] text-white md:w-7xl h-[651px] flex flex-col justify-center absolute z-10 gap-6'>
+        <div className=''>
+            <div className='hidden sm:w-full sm:h-[780px] sm:flex sm:flex-row sm:items-center sm:justify-center ' >
+                <div className=' text-white sm:w-[1044px] sm:h-[651px] flex flex-col justify-center absolute z-10 gap-6'>
 
-                    <p className='md:font-bold md:text-lg'>SUMMER 2020</p>
-                    <h1 className='md:font-bold md:text-6xl text-wrap'>NEW COLLECTION</h1>
-                    <p className='md:font-normal md:text-[20px]'>We know how large objects will act, <br /> but thins on a small scale</p>
+                    <p className='sm:font-bold sm:text-lg'>SUMMER 2020</p>
+                    <h1 className='sm:font-bold sm:text-6xl'>NEW COLLECTION</h1>
+                    <p className='sm:font-normal sm:text-[20px]'>We know how large objects will act, <br /> but thins on a small scale</p>
                     <Button className='bg-[#2dc071] rounded w-[228px] h-[62px] text-[24px] font-bold'>SHOP NOW</Button>
 
                 </div>
-                <Image src={hero1} alt='Hero Image' height={716} width={1540} className='relative' />
+                <div>
+                    <Image src={hero1} alt='Hero Image' height={840} width={1540} className='relative' />
+                </div>
 
             </div>
-            <div className='w-[453px] h-[753px] ml-28 md:hidden flex  items-center justify-between mt-40' >
-                <div className=' text-white w-[450px] pr-12 h-[651px] flex flex-col justify-center items-center text-center absolute z-10 gap-4'>
+
+
+
+
+
+            <div className='sm:hidden w-[630px] h-[1285px]  flex  items-center justify-between' >
+                <div className=' text-white w-[414px] h-[784px] flex flex-col justify-center items-center text-center absolute z-10 gap-10'>
 
                     <p className='font-bold text-lg'>SUMMER 2020</p>
-                    <h1 className='font-bold text-4xl text-wrap'>NEW <br/> COLLECTION</h1>
-                    <p className='font-normal text-[16px]'>We know how large objects will act, <br /> but thins on a small scale</p>
+                    <h1 className='font-bold text-4xl text-wrap'>NEW <br /> COLLECTION</h1>
+                    <p className='font-normal text-[16px]'>We know how large objects<br /> will act,  but thins on<br/> a small scale</p>
                     <Button className='bg-[#2dc071] rounded w-[150px] h-[50px] text-[18px] font-bold'>SHOP NOW</Button>
 
                 </div>
-                <Image src={heroVer} alt='Hero Image' height={753}  className='relative' />
+                <Image src={heroVer} alt='Hero Image' width={630} height={753} className='relative' />
 
             </div>
         </div>
-        
+
 
     )
 }

@@ -69,10 +69,10 @@ const Nav2 = () => {
                             </div>
                         </SheetHeader>
                         <div className='flex flex-col gap-6 mt-12 justify-center items-center text-[30px] font-normal text-[#737373] opacity-100' >
-                            <Link href="#">Home</Link>
-                            <Link href="#">Product</Link>
-                            <Link href="#">Pricing</Link>
-                            <Link href="#">Contact</Link>
+                            <Link href="/">Home</Link>
+                            <Link href="/products/product">Product</Link>
+                            <Link href="/pricing">Pricing</Link>
+                            <Link href="/contact">Contact</Link>
                         </div>
                     </SheetContent>
 
